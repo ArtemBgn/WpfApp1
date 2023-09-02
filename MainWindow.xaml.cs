@@ -22,8 +22,7 @@ namespace WpfApp1
             bool b1 = double.TryParse(textbox1.Text, out x);
             bool c1 = double.TryParse(textbox2.Text, out y);
             //MessageBox.Show($"текстбоксс 1 = {b1}\nтекстбокс 2 = {c1}");
-            //123
-
+            
             if (b1 && c1)
             {
                 if ((double.Parse(textbox1.Text) > double.MaxValue) || (double.Parse(textbox1.Text) < double.MinValue))
